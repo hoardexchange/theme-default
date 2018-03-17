@@ -29,15 +29,6 @@
 
 <ul class="summary">
     {% set _divider = false %}
-    {% if config.links.sidebar  %}
-    {% for linkTitle, link in config.links.sidebar  %}
-        {% set _divider = true %}
-        <li>
-            <a href="{{ link }}" target="_blank" class="custom-link">{{ linkTitle }}</a>
-        </li>
-    {% endfor %}
-    {% endif %}
-
     {% if _divider %}
     <li class="divider"></li>
     {% endif %}
@@ -49,13 +40,5 @@
         <li class="divider"></li>
         {% endif %}
         {{ articles(part.articles, file, config) }}
-    {% endfor %}
-
-    <li class="divider"></li>
-
-    <li>
-        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
-            {{ "GITBOOK_LINK"|t }}
-        </a>
-    </li>
+    {% endfor %}        
 </ul>
