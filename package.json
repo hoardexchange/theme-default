@@ -1,8 +1,8 @@
 {
-  "name": "gitbook-plugin-theme-default-hoard",
-  "description": "Default Hoard theme for GitBook",
+  "name": "gitbook-plugin-theme-default",
+  "description": "Default theme for GitBook",
   "main": "./index.js",
-  "version": "1.0.0",
+  "version": "1.0.7",
   "engines": {
     "gitbook": ">=3.0.0"
   },
@@ -25,19 +25,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hoardexchange/theme-default-hoard.git"
+    "url": "https://github.com/GitbookIO/theme-default.git"
   },
   "author": "FriendCode Inc. <contact@gitbook.com>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/hoardexchange/theme-default-hoard/issues"
+    "url": "https://github.com/GitbookIO/theme-default/issues"
   },
   "contributors": [
     {
       "name": "Samy Pessé",
-      "email": "samy@gitbook.com",
-      "name": "Thomas Hagen Johansen",
-      "email": "thj@hoard.exchange"
+      "email": "samy@gitbook.com"
     }
   ],
   "gitbook": {
